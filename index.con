@@ -159,7 +159,7 @@ button{
   </p>
 
   <div class="photo">
-    <img src="photo.jpg">
+    <img src="nura-photo.jpg">
   </div>
 
   <button onclick="showSurprise()">Нажми сюрприз 🎁</button>
@@ -181,14 +181,14 @@ button{
   </div>
 
   <audio autoplay loop>
-    <source src="love-me.mp3" type="audio/mpeg">
+    <source src="nura-love.mp3" type="audio/mpeg">
   </audio>
 
 </div>
 
 <script>
 function checkPassword(){
-  const password="nuraqueen"; // новый пароль
+  const password="nuraqueen"; // пароль для входа
   const input=document.getElementById("passwordInput").value;
   if(input===password){
     document.getElementById("passwordScreen").style.display="none";
@@ -206,7 +206,7 @@ function showLetter(){
   document.getElementById("letter").style.display="block";
 }
 
-// Падающие эмодзи — меньше и медленнее, чтобы не конкурировать с Улбосын
+// Падающие эмодзи — мягкий дождь, не слишком много
 function createFallingEmojis(){
   const emojis=["❤️","🌸","✨","💖"];
   for(let i=0;i<3;i++){
